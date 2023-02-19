@@ -48,7 +48,7 @@ margin: 5% 3% 5% 0%;
 .title-image{
 width: 60%;
 transform: rotate(25deg);
-position: absolute; /* z index will only work when position is absolute*/
+position: absolute; /* z-index will only work when position is applied */
 right: 30%;
 }
 /* Feature section */
@@ -144,11 +144,11 @@ text-align: center;
   color: black;
 }
 /* media query section Advanced css */
-@media(max-width:1028px){
+@media(max-width:1028px){     /* under one condition*/
   #title{
     text-align: center;
   }
- .title-image{
+ .title-image{                     /* responsive layout*/
   position: static;
   transform: rotate(0);
  }
